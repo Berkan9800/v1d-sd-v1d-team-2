@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="224.0" layoutY="31.0" text="Inloggen">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="111.0" text="E-mail">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="112.0" layoutY="200.0" text="Wachtwoord">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="112.0" layoutY="146.0" prefHeight="35.0" prefWidth="353.0" promptText="Example@student.hu.nl" />
+      <TextField layoutX="112.0" layoutY="235.0" prefHeight="35.0" prefWidth="353.0" promptText="Voer uw wachtwoord in" />
+      <ImageView fitHeight="88.0" fitWidth="132.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pictures/hu%20logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="232.0" layoutY="323.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="144.0" style="-fx-border-width: 2; -fx-border-color: black; -fx-border-radius: 5; -fx-background-color: lightgrey;" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
